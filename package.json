@@ -1,0 +1,27 @@
+{
+  "name": "codeceptjs-api",
+  "version": "1.0.0",
+  "description": "Projeto de automação de testes da API de Pet Store, com CodeceptJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luanaterense/codeceptjs-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luanaterense/codeceptjs-api/issues"
+  },
+  "homepage": "https://github.com/luanaterense/codeceptjs-api#readme",
+  "dependencies": {
+    "codeceptjs": "^3.2.2",
+    "codeceptjs-chai": "^2.3.2"
+  },
+  "devDependencies": {
+    "playwright": "^1.16.3"
+  }
+}
