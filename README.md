@@ -1,4 +1,4 @@
-# Automação de API com CodeceptJS
+# Automação de Testes de API com CodeceptJS
 
 Este é um projeto desenvolvido para automação de testes da API de PetStore: https://petstore.swagger.io/
 
