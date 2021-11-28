@@ -36,4 +36,5 @@ npx codeceptjs run
 
 Pronto! O projeto está rodando na máquina local.
 
-Projeto desenvolvido por @luanaterense
+Projeto desenvolvido por Luana Matias Terense
+Linkedin: https://www.linkedin.com/in/luana-m-terense/
