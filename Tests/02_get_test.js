@@ -5,11 +5,6 @@ Feature("Validar get em API");
 var endpoint = "/pet/261291";
 var response;
 
-Scenario("Executar request", async ({ I }) => {
-  //Enviando o request
-  response = await I.sendGetRequest(endpoint);
-});
-
 Scenario("Validar se status é igual a 200", async ({ I }) => {
   //Enviando o request
   response = await I.sendGetRequest(endpoint);
