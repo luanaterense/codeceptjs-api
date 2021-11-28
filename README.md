@@ -34,4 +34,6 @@ Agora, basta executar os testes conforme o comando abaixo:
 npx codeceptjs run
 ```
 
-Pronto! Seu projeto está rodando na máquina local.
+Pronto! O projeto está rodando na máquina local.
+
+Projeto desenvolvido por @luanaterense
