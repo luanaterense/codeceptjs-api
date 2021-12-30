@@ -1,24 +1,14 @@
-Feature("Validar post em API");
+Feature("Validar post de pet em API");
+
+const fs = require("fs");
 
 Scenario("Validar post", async ({ I }) => {
-  var json = {
-    id: 261291,
-    category: {
-      id: 261291,
-      name: "Nina",
-    },
-    name: "Nina",
-    photoUrls: ["string"],
-    tags: [
-      {
-        id: 261291,
-        name: "Nina",
-      },
-    ],
-    status: "available",
-  };
+  let new_pet = fs.readFileSync("./Files/new_pet.json");
+  let json = JSON.parse(new_pet);
 
   var pet = "/pet";
+
   var response = await I.sendPostRequest(pet, json);
+
   I.assertEqual(200, response.status);
 });

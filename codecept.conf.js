@@ -5,7 +5,8 @@ const { setHeadlessWhen } = require("@codeceptjs/configure");
 setHeadlessWhen(process.env.HEADLESS);
 
 exports.config = {
-  tests: "./Tests/*_test.js",
+  tests: "./Tests/00_post_json_test.js",
+  //tests: "./Tests/*_test.js",
   output: "./output",
   helpers: {
     REST: {
@@ -17,6 +18,7 @@ exports.config = {
     ChaiWrapper: {
       require: "codeceptjs-chai",
     },
+    FileSystem: {},
   },
   include: {
     I: "./steps_file.js",
